@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Administrator/Desktop/CSC295/Cdgemm/DGEMM.c
+DGEMM.h
+C:/Users/Administrator/Desktop/CSC295/Cdgemm/DGEMM.h
+
+C:/Users/Administrator/Desktop/CSC295/Cdgemm/DGEMM.h
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+limits.h
+-
+
+C:/Users/Administrator/Desktop/CSC295/Cdgemm/main.c
+DGEMM.h
+C:/Users/Administrator/Desktop/CSC295/Cdgemm/DGEMM.h
+
