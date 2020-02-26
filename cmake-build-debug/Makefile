@@ -38,10 +38,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6015.37\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6015.37\bin\cmake\win\bin\cmake.exe -E remove -f
+RM = C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = C:\Users\Administrator\Desktop\CSC295\Cdgemm\cmake-build-debu
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6015.37\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6015.37\bin\cmake\win\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -149,6 +149,33 @@ DGEMM.c.s:
 	$(MAKE) -f CMakeFiles\Cdgemm.dir\build.make CMakeFiles/Cdgemm.dir/DGEMM.c.s
 .PHONY : DGEMM.c.s
 
+SMID_DGEMM.obj: SMID_DGEMM.c.obj
+
+.PHONY : SMID_DGEMM.obj
+
+# target to build an object file
+SMID_DGEMM.c.obj:
+	$(MAKE) -f CMakeFiles\Cdgemm.dir\build.make CMakeFiles/Cdgemm.dir/SMID_DGEMM.c.obj
+.PHONY : SMID_DGEMM.c.obj
+
+SMID_DGEMM.i: SMID_DGEMM.c.i
+
+.PHONY : SMID_DGEMM.i
+
+# target to preprocess a source file
+SMID_DGEMM.c.i:
+	$(MAKE) -f CMakeFiles\Cdgemm.dir\build.make CMakeFiles/Cdgemm.dir/SMID_DGEMM.c.i
+.PHONY : SMID_DGEMM.c.i
+
+SMID_DGEMM.s: SMID_DGEMM.c.s
+
+.PHONY : SMID_DGEMM.s
+
+# target to generate assembly for a file
+SMID_DGEMM.c.s:
+	$(MAKE) -f CMakeFiles\Cdgemm.dir\build.make CMakeFiles/Cdgemm.dir/SMID_DGEMM.c.s
+.PHONY : SMID_DGEMM.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -188,6 +215,9 @@ help:
 	@echo ... DGEMM.obj
 	@echo ... DGEMM.i
 	@echo ... DGEMM.s
+	@echo ... SMID_DGEMM.obj
+	@echo ... SMID_DGEMM.i
+	@echo ... SMID_DGEMM.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

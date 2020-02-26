@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/Administrator/Desktop/CSC295/Cdgemm/DGEMM.c" "C:/Users/Administrator/Desktop/CSC295/Cdgemm/cmake-build-debug/CMakeFiles/Cdgemm.dir/DGEMM.c.obj"
+  "C:/Users/Administrator/Desktop/CSC295/Cdgemm/SMID_DGEMM.c" "C:/Users/Administrator/Desktop/CSC295/Cdgemm/cmake-build-debug/CMakeFiles/Cdgemm.dir/SMID_DGEMM.c.obj"
   "C:/Users/Administrator/Desktop/CSC295/Cdgemm/main.c" "C:/Users/Administrator/Desktop/CSC295/Cdgemm/cmake-build-debug/CMakeFiles/Cdgemm.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

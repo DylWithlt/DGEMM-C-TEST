@@ -1,8 +1,6 @@
 // thanks to Joshua Skootsky
 #include "DGEMM.h"
 
-
-
 int main(int argc, char *argv[]) {
     // seed random generator
     srand(2020);
@@ -19,7 +17,7 @@ int main(int argc, char *argv[]) {
     fillArray(ROWLEN, a, b, c);
 
     //mm(a, b, c);
-    dgemm(ROWLEN, a, b, c);
+    smid_dgemm(ROWLEN, a, b, c);
     dgemm_intrins();
 
     end = clock();

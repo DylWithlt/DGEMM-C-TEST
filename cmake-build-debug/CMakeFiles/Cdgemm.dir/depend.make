@@ -4,6 +4,9 @@
 CMakeFiles/Cdgemm.dir/DGEMM.c.obj: ../DGEMM.c
 CMakeFiles/Cdgemm.dir/DGEMM.c.obj: ../DGEMM.h
 
+CMakeFiles/Cdgemm.dir/SMID_DGEMM.c.obj: ../DGEMM.h
+CMakeFiles/Cdgemm.dir/SMID_DGEMM.c.obj: ../SMID_DGEMM.c
+
 CMakeFiles/Cdgemm.dir/main.c.obj: ../DGEMM.h
 CMakeFiles/Cdgemm.dir/main.c.obj: ../main.c
 

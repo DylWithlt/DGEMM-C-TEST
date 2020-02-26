@@ -4,7 +4,6 @@
 
 #include "DGEMM.h"
 
-
 void display(int n, double *a, double *b, double *c) {
     for (int i = 0; i < ROWLEN; i++) {
         for (int j = 0; j < 2; j++) {
@@ -34,13 +33,13 @@ void mm(double a[ROWLEN][ROWLEN], double b[ROWLEN][ROWLEN], double c[ROWLEN][ROW
     }
 }
 
-void dgemm(int n, const double *A, const double *B, double *C) {
+void dgemm(int n, double *A, double *B, double *C) {
     for (int i = 0; i < n; ++i)
         for (int j = 0; j < n; ++j) {
-            double cij = C[i + j * n]; /* cij = C[i][j] */
+            double cij = C[j + i * n]; /* cij = C[i][j] */
             for (int k = 0; k < n; k++)
-                cij += A[i + k * n] * B[k + j * n]; /* cij += A[i][k]*B[k][j] */
-            C[i + j *n] = cij; /* C[i][j] = cij */
+                cij += A[k + i * n] * B[j + k * n]; /* cij += A[i][k]*B[k][j] */
+            C[j + i *n] = cij; /* C[i][j] = cij */
         }
 }
 

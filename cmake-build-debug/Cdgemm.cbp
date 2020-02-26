@@ -80,6 +80,9 @@
 		<Unit filename="C:/Users/Administrator/Desktop/CSC295/Cdgemm/DGEMM.h">
 			<Option target="Cdgemm"/>
 		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/CSC295/Cdgemm/SMID_DGEMM.c">
+			<Option target="Cdgemm"/>
+		</Unit>
 		<Unit filename="C:/Users/Administrator/Desktop/CSC295/Cdgemm/main.c">
 			<Option target="Cdgemm"/>
 		</Unit>
