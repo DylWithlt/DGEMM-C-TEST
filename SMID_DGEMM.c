@@ -5,7 +5,6 @@
 #include "DGEMM.h"
 #include <x86intrin.h>
 
-
 void smid_dgemm(int n, double *A, double *B, double *C) {
     for (int i = 0; i < n; i += 4)
         for (int j = 0; j < n; j++) {

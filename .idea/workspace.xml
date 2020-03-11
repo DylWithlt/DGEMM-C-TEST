@@ -11,40 +11,18 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85165cbf-a5bc-424e-ada5-f69a8ea158a0" name="Default Changelist" comment="added SMID dgemm with in-line assembly.">
-      <change afterPath="$PROJECT_DIR$/DGEMM.s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SMID_DGEMM.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SMID_DGEMM.s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dgemm.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smid_dgemm.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="85165cbf-a5bc-424e-ada5-f69a8ea158a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DGEMM_2048_DGEMM.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DGEMM_2048_PIPELINE.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DGEMM_2048_SIMD.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMID_PIPELINE.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SMID_PIPELINE.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dgemm_pipeline.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DGEMM.c" beforeDir="false" afterPath="$PROJECT_DIR$/DGEMM.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DGEMM.h" beforeDir="false" afterPath="$PROJECT_DIR$/DGEMM.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cdgemm.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cdgemm.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cdgemm.dir/DGEMM.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cdgemm.dir/DGEMM.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cdgemm.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cdgemm.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cdgemm.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cdgemm.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cdgemm.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cdgemm.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cdgemm.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cdgemm.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cdgemm.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cdgemm.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cdgemm.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cdgemm.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cdgemm.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cdgemm.dir/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cdgemm.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cdgemm.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cdgemm.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cdgemm.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cdgemm.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Cdgemm.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Cdgemm.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMID_DGEMM.c" beforeDir="false" afterPath="$PROJECT_DIR$/SMID_DGEMM.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMID_DGEMM.s" beforeDir="false" afterPath="$PROJECT_DIR$/SMID_DGEMM.s" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,8 +80,18 @@
       <workItem from="1579819291008" duration="6434000" />
       <workItem from="1579827443756" duration="1231000" />
       <workItem from="1580345147212" duration="154000" />
-      <workItem from="1582753069199" duration="2943000" />
+      <workItem from="1582753069199" duration="3216000" />
+      <workItem from="1583958506504" duration="47000" />
+      <workItem from="1583959138813" duration="2715000" />
     </task>
+    <task id="LOCAL-00001" summary="added SMID dgemm with in-line assembly.">
+      <created>1582756038435</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582756038435</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,18 +103,23 @@
     <option name="LAST_COMMIT_MESSAGE" value="added SMID dgemm with in-line assembly." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2472" y="178" key="#Deployment" timestamp="1582756388480">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="178" key="#Deployment/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1582756388480" />
     <state x="73" y="189" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582754329727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="73" y="189" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582754329727" />
-    <state x="709" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582755897484">
+    <state x="709" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583959644383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="709" y="322" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582755897484" />
-    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1582756003903">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="709" y="322" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583959644383" />
+    <state x="2505" y="114" key="CommitChangelistDialog2" timestamp="1582756433825">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="114" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582756003903" />
+    <state x="585" y="114" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582756037201" />
+    <state x="2505" y="114" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1582756433825" />
     <state x="761" y="274" key="FileChooserDialogImpl" timestamp="1582754676131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -156,6 +149,10 @@
     </state>
     <state x="277" y="53" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582755062046" />
     <state x="2842" y="166" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1582753146538" />
+    <state x="2472" y="252" key="Vcs.Push.Dialog.v2" timestamp="1582756472421">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="252" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1582756472421" />
     <state x="1125" y="306" key="com.intellij.ide.util.TipDialog" timestamp="1580345156763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

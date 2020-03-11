@@ -17,7 +17,10 @@ int main(int argc, char *argv[]) {
     fillArray(ROWLEN, a, b, c);
 
     //mm(a, b, c);
-    smid_dgemm(ROWLEN, a, b, c);
+    //dgemm(ROWLEN, a, b, c);
+    //smid_dgemm(ROWLEN, a, b, c);
+    dgemm_pipeline(ROWLEN, a, b, c);
+
     dgemm_intrins();
 
     end = clock();
@@ -25,7 +28,7 @@ int main(int argc, char *argv[]) {
     printf("the elapsed CPU time is %lf\n", cpu_time_used);
     printf("Clocks per sec: %d\n", CLOCKS_PER_SEC);
 
-    display(ROWLEN, a, b, c);
+    //display(ROWLEN, a, b, c);
 
     return 0;
 }
